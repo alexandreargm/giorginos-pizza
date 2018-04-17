@@ -19,6 +19,16 @@ body:not(#index){
     padding-top: 90px;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 a img {
     cursor: pointer;
 }
@@ -312,7 +322,7 @@ form > div > label{
 
 @media (min-width:970px) and (min-height: 850px)  { 
     #footerContactoReserva {
-      position: fixed;
-      bottom: 0px;
+      //position: fixed;
+      //bottom: 0px;
     }
 }
